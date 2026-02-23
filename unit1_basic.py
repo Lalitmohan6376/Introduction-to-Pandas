@@ -1,4 +1,4 @@
-import pandas as pd
+seimport pandas as pd
 import numpy as np
 
 data = {
@@ -46,8 +46,5 @@ print(num_colums)
 ds = df['Name#'] = df['Name#'].str.lower().str.strip()
 
 
-print(ds)
-
-
-
+print(ds
 
