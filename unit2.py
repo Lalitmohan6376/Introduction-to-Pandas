@@ -44,4 +44,3 @@ df = pd.DataFrame(data)
 # df.fillna(method='bfill',inplace=True)
 
 print("Drop Rows\n",df)
-
