@@ -15,32 +15,32 @@ df = pd.DataFrame(data)
 # print(df)
 #----------1.Detect missing data-----------
 
-# print(df.isnull().sum())
+print(df.isnull().sum())
 
-# print(df.isnull().values.any())
+print(df.isnull().values.any())
 
 #-----------2. Remove missing data------------
 
-# df.dropna(inplace=True)
+df.dropna(inplace=True)
 
-# df.dropna(axis=1,inplace=True)
+df.dropna(axis=1,inplace=True)
 
-# df.dropna(subset=['Age&'],inplace=True)
+df.dropna(subset=['Age&'],inplace=True)
 
 ##----------3. Replacing Missing values#----------
 
-# df.fillna(0,inplace=True)
+df.fillna(0,inplace=True)
 
-# df['Age&'].fillna(0,inplace=True)
+df['Age&'].fillna(0,inplace=True)
 
-# df['Exp^rience'].fillna(df['Exp^rience'].median(),inplace=True)
+df['Exp^rience'].fillna(df['Exp^rience'].median(),inplace=True)
 
-# df['Exp^rience'].fillna(df['Exp^rience'].mean(),inplace=True)
+df['Exp^rience'].fillna(df['Exp^rience'].mean(),inplace=True)
 
-# df['Exp^rience'].fillna(df['Exp^rience'].mode()[0],inplace=True)
+df['Exp^rience'].fillna(df['Exp^rience'].mode()[0],inplace=True)
 
-# df.fillna(method='ffill',inplace=True)
+df.fillna(method='ffill',inplace=True)
 
-# df.fillna(method='bfill',inplace=True)
+df.fillna(method='bfill',inplace=True)
 
 print("Drop Rows\n",df)
