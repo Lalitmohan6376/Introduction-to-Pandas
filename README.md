@@ -77,6 +77,3 @@ Year, month, day extract karna
 
 Cleaned data ko CSV / Excel me save karna
 
-Reports ke liye data export
-
-Thank You
