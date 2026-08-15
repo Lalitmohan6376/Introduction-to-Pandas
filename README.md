@@ -2,7 +2,7 @@
 
 🐼 **Pandas** is one of the most popular Python libraries for **data manipulation** and **data analysis**. It helps you understand, clean, transform, and organize data efficiently.
 
-In simple words, **Pandas** makes it easy to:
+In simple words, Pandas makes it easy to:
 
 * 📊 Understand your data
 * 🧹 Remove duplicate values
