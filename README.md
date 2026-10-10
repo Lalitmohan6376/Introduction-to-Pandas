@@ -1,4 +1,4 @@
-# 🚀 Introduction to Pandas
+# 🚀 Introduction to Pandass
 
 🐼 **Pandas** is one of the most popular Python libraries for **data manipulation** and **data analysis**. It helps you understand, clean, transform, and organize data efficiently.
 
